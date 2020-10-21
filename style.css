@@ -2,6 +2,13 @@ html {
   scroll-behavior: smooth;
 }
 
+* {
+  font-family: "Commissioner", sans-serif;
+}
+p {
+  font-size: 12pt;
+}
+
 .pair-o-buttons {
   /* border: 1px solid hotpink; */
   text-align: center;
