@@ -1,3 +1,16 @@
 html {
   scroll-behavior: smooth;
 }
+
+#portfolio-container {
+  border: 1px solid hotpink;
+}
+
+/* 
+thing {
+  transition-timing-function: ease;
+} */
+
+.hidden {
+  display: none;
+}
