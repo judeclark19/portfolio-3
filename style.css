@@ -2,15 +2,21 @@ html {
   scroll-behavior: smooth;
 }
 
-#portfolio-container {
-  border: 1px solid hotpink;
+.pair-o-buttons {
+  /* border: 1px solid hotpink; */
+  text-align: center;
+  margin-bottom: 20px;
 }
 
-/* 
-thing {
-  transition-timing-function: ease;
-} */
+.w3-button {
+  border-radius: 5px;
+}
 
-.hidden {
-  display: none;
+/* 5f0092 */
+.bg-purple {
+  background-color: #582573 !important;
+}
+
+.w3-text-teal {
+  color: #582573 !important;
 }

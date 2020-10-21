@@ -42,40 +42,45 @@
           <i class="fa fa-remove"></i>
         </a>
         <img
-          src="/w3images/avatar_g2.jpg"
-          style="width: 45%"
+          src="./images/jc1-square.jpg"
+          style="width: 100%"
           class="w3-round"
         /><br /><br />
-        <h4><b>PORTFOLIO</b></h4>
+        <h4><b>JUDE CLARK</b></h4>
         <!-- <p class="w3-text-grey">Template by W3.CSS</p> -->
       </div>
       <div class="w3-bar-block">
         <a
-          href="#portfolio"
-          onclick="w3_close()"
-          class="w3-bar-item w3-button w3-padding w3-text-teal"
-          ><i class="fa fa-th-large fa-fw w3-margin-right"></i>PORTFOLIO</a
-        >
-        <a
           href="#about"
           onclick="w3_close()"
-          class="w3-bar-item w3-button w3-padding"
+          class="w3-bar-item w3-button w3-padding w3-text-teal"
+          id="about-link"
           ><i class="fa fa-user fa-fw w3-margin-right"></i>ABOUT</a
+        >
+        <a
+          href="#portfolio"
+          onclick="w3_close()"
+          class="w3-bar-item w3-button w3-padding"
+          id="portfolio-link"
+          ><i class="fa fa-th-large fa-fw w3-margin-right"></i>PORTFOLIO</a
         >
         <a
           href="#contact"
           onclick="w3_close()"
           class="w3-bar-item w3-button w3-padding"
+          id="contact-link"
           ><i class="fa fa-envelope fa-fw w3-margin-right"></i>CONTACT</a
         >
       </div>
       <div class="w3-panel w3-large">
-        <i class="fa fa-facebook-official w3-hover-opacity"></i>
-        <i class="fa fa-instagram w3-hover-opacity"></i>
-        <i class="fa fa-snapchat w3-hover-opacity"></i>
-        <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-        <i class="fa fa-twitter w3-hover-opacity"></i>
-        <i class="fa fa-linkedin w3-hover-opacity"></i>
+        <a href="https://github.com/judeclark19"
+          ><i class="fa fa-github w3-hover-opacity"></i></a
+        >&nbsp;
+        <a href="https://www.linkedin.com/in/jude-clark-89262634/"
+          ><i class="fa fa-linkedin w3-hover-opacity"></i></a
+        >&nbsp;&nbsp;<a href="https://twitter.com/spacialfray"
+          ><i class="fa fa-twitter w3-hover-opacity"></i
+        ></a>
       </div>
     </nav>
 
@@ -90,316 +95,78 @@
 
     <!-- !PAGE CONTENT! -->
     <div class="w3-main" style="margin-left: 300px">
-      <!-- Portfolio Header -->
-      <header id="portfolio">
-        <a href="#"
-          ><img
-            src="/w3images/avatar_g2.jpg"
-            style="width: 65px"
-            class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"
-        /></a>
-        <span
-          class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey"
-          onclick="w3_open()"
-          ><i class="fa fa-bars"></i
-        ></span>
-        <div class="w3-container">
-          <h1><b>My Portfolio</b></h1>
-          <div class="w3-section w3-bottombar w3-padding-16">
-            <span class="w3-margin-right">Filter:</span>
-            <button class="w3-button w3-black">ALL</button>
-            <button class="w3-button w3-white">
-              <i class="fa fa-diamond w3-margin-right"></i>Design
-            </button>
-            <button class="w3-button w3-white w3-hide-small">
-              <i class="fa fa-photo w3-margin-right"></i>Photos
-            </button>
-            <button class="w3-button w3-white w3-hide-small">
-              <i class="fa fa-map-pin w3-margin-right"></i>Art
-            </button>
-          </div>
-        </div>
-      </header>
-      <div id="port-page-1">
-        <!-- p1 r1-->
-        <div class="w3-row-padding">
-          <div class="w3-third w3-container w3-margin-bottom">
-            <img
-              src="/w3images/mountains.jpg"
-              alt="Norway"
-              style="width: 100%"
-              class="w3-hover-opacity"
-            />
-            <div class="w3-container w3-white">
-              <p><b>P1 R1</b></p>
-              <p>
-                Praesent tincidunt sed tellus ut rutrum. Sed vitae justo
-                condimentum, porta lectus vitae, ultricies congue gravida diam
-                non fringilla.
-              </p>
-            </div>
-          </div>
-          <div class="w3-third w3-container w3-margin-bottom">
-            <img
-              src="/w3images/lights.jpg"
-              alt="Norway"
-              style="width: 100%"
-              class="w3-hover-opacity"
-            />
-            <div class="w3-container w3-white">
-              <p><b>p1 r1</b></p>
-              <p>
-                Praesent tincidunt sed tellus ut rutrum. Sed vitae justo
-                condimentum, porta lectus vitae, ultricies congue gravida diam
-                non fringilla.
-              </p>
-            </div>
-          </div>
-          <div class="w3-third w3-container">
-            <img
-              src="/w3images/nature.jpg"
-              alt="Norway"
-              style="width: 100%"
-              class="w3-hover-opacity"
-            />
-            <div class="w3-container w3-white">
-              <p><b>p1 r1</b></p>
-              <p>
-                Praesent tincidunt sed tellus ut rutrum. Sed vitae justo
-                condimentum, porta lectus vitae, ultricies congue gravida diam
-                non fringilla.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <!-- p1 r2-->
-        <div class="w3-row-padding">
-          <div class="w3-third w3-container w3-margin-bottom">
-            <img
-              src="/w3images/p1.jpg"
-              alt="Norway"
-              style="width: 100%"
-              class="w3-hover-opacity"
-            />
-            <div class="w3-container w3-white">
-              <p><b>p1 r2</b></p>
-              <p>
-                Praesent tincidunt sed tellus ut rutrum. Sed vitae justo
-                condimentum, porta lectus vitae, ultricies congue gravida diam
-                non fringilla.
-              </p>
-            </div>
-          </div>
-          <div class="w3-third w3-container w3-margin-bottom">
-            <img
-              src="/w3images/p2.jpg"
-              alt="Norway"
-              style="width: 100%"
-              class="w3-hover-opacity"
-            />
-            <div class="w3-container w3-white">
-              <p><b>p1 r2</b></p>
-              <p>
-                Praesent tincidunt sed tellus ut rutrum. Sed vitae justo
-                condimentum, porta lectus vitae, ultricies congue gravida diam
-                non fringilla.
-              </p>
-            </div>
-          </div>
-          <div class="w3-third w3-container">
-            <img
-              src="/w3images/p3.jpg"
-              alt="Norway"
-              style="width: 100%"
-              class="w3-hover-opacity"
-            />
-            <div class="w3-container w3-white">
-              <p><b>p1 r2</b></p>
-              <p>
-                Praesent tincidunt sed tellus ut rutrum. Sed vitae justo
-                condimentum, porta lectus vitae, ultricies congue gravida diam
-                non fringilla.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div id="port-page-2" class="hidden">
-        <!-- p2 r1-->
-        <div class="w3-row-padding">
-          <div class="w3-third w3-container w3-margin-bottom">
-            <img
-              src="/w3images/mountains.jpg"
-              alt="Norway"
-              style="width: 100%"
-              class="w3-hover-opacity"
-            />
-            <div class="w3-container w3-white">
-              <p><b>P2 R1</b></p>
-              <p>
-                Praesent tincidunt sed tellus ut rutrum. Sed vitae justo
-                condimentum, porta lectus vitae, ultricies congue gravida diam
-                non fringilla.
-              </p>
-            </div>
-          </div>
-          <div class="w3-third w3-container w3-margin-bottom">
-            <img
-              src="/w3images/lights.jpg"
-              alt="Norway"
-              style="width: 100%"
-              class="w3-hover-opacity"
-            />
-            <div class="w3-container w3-white">
-              <p><b>p2 r1</b></p>
-              <p>
-                Praesent tincidunt sed tellus ut rutrum. Sed vitae justo
-                condimentum, porta lectus vitae, ultricies congue gravida diam
-                non fringilla.
-              </p>
-            </div>
-          </div>
-          <div class="w3-third w3-container">
-            <img
-              src="/w3images/nature.jpg"
-              alt="Norway"
-              style="width: 100%"
-              class="w3-hover-opacity"
-            />
-            <div class="w3-container w3-white">
-              <p><b>p2 r1</b></p>
-              <p>
-                Praesent tincidunt sed tellus ut rutrum. Sed vitae justo
-                condimentum, porta lectus vitae, ultricies congue gravida diam
-                non fringilla.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <!-- p2 r2-->
-        <div class="w3-row-padding">
-          <div class="w3-third w3-container w3-margin-bottom">
-            <img
-              src="/w3images/p1.jpg"
-              alt="Norway"
-              style="width: 100%"
-              class="w3-hover-opacity"
-            />
-            <div class="w3-container w3-white">
-              <p><b>p2 r2</b></p>
-              <p>
-                Praesent tincidunt sed tellus ut rutrum. Sed vitae justo
-                condimentum, porta lectus vitae, ultricies congue gravida diam
-                non fringilla.
-              </p>
-            </div>
-          </div>
-          <div class="w3-third w3-container w3-margin-bottom">
-            <img
-              src="/w3images/p2.jpg"
-              alt="Norway"
-              style="width: 100%"
-              class="w3-hover-opacity"
-            />
-            <div class="w3-container w3-white">
-              <p><b>p2 r2</b></p>
-              <p>
-                Praesent tincidunt sed tellus ut rutrum. Sed vitae justo
-                condimentum, porta lectus vitae, ultricies congue gravida diam
-                non fringilla.
-              </p>
-            </div>
-          </div>
-          <div class="w3-third w3-container">
-            <img
-              src="/w3images/p3.jpg"
-              alt="Norway"
-              style="width: 100%"
-              class="w3-hover-opacity"
-            />
-            <div class="w3-container w3-white">
-              <p><b>p2 r2</b></p>
-              <p>
-                Praesent tincidunt sed tellus ut rutrum. Sed vitae justo
-                condimentum, porta lectus vitae, ultricies congue gravida diam
-                non fringilla.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Pagination -->
-      <div class="w3-center w3-padding-32">
-        <div class="w3-bar">
-          <a
-            href="#"
-            class="w3-bar-item w3-button w3-hover-black"
-            id="page-left"
-            >«</a
-          >
-          <a
-            href="#"
-            class="w3-bar-item w3-black w3-button page-number"
-            data-page="1"
-            >1</a
-          >
-          <a
-            href="#"
-            class="w3-bar-item w3-button w3-hover-black page-number"
-            data-page="2"
-            >2</a
-          >
-          <a
-            href="#"
-            class="w3-bar-item w3-button w3-hover-black page-number"
-            data-page="3"
-            >3</a
-          >
-          <a
-            href="#"
-            class="w3-bar-item w3-button w3-hover-black page-number"
-            data-page="4"
-            >4</a
-          >
-          <a
-            href="#"
-            class="w3-bar-item w3-button w3-hover-black"
-            id="page-right"
-            >»</a
-          >
-        </div>
-      </div>
-
       <!-- Images of Me -->
-      <div class="w3-row-padding w3-padding-16" id="about">
+      <!-- <div class="w3-row-padding w3-padding-16" id="about">
         <div class="w3-col m6">
           <img src="/w3images/avatar_g.jpg" alt="Me" style="width: 100%" />
         </div>
         <div class="w3-col m6">
           <img src="/w3images/me2.jpg" alt="Me" style="width: 100%" />
         </div>
-      </div>
-
+      </div> -->
+      <!-- ABOUT ME SECTION -->
       <div class="w3-container w3-padding-large" style="margin-bottom: 32px">
-        <h4><b>About Me</b></h4>
+        <header id="about">
+          <!-- <a href="#"
+            ><img
+              src="/w3images/avatar_g2.jpg"
+              style="width: 65px"
+              class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"
+          /></a>
+          <span
+            class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey"
+            onclick="w3_open()"
+            ><i class="fa fa-bars"></i
+          ></span> -->
+          <!-- <div class="w3-container"> -->
+          <h1><b>About Me</b></h1>
+          <!-- <div class="w3-section w3-bottombar w3-padding-16">
+                <span class="w3-margin-right">Filter:</span>
+                <button class="w3-button w3-black">ALL</button>
+                <button class="w3-button w3-white">
+                  <i class="fa fa-diamond w3-margin-right"></i>Design
+                </button>
+                <button class="w3-button w3-white w3-hide-small">
+                  <i class="fa fa-photo w3-margin-right"></i>Photos
+                </button>
+                <button class="w3-button w3-white w3-hide-small">
+                  <i class="fa fa-map-pin w3-margin-right"></i>Art
+                </button>
+              </div> -->
+          <!-- </div> -->
+        </header>
         <p>
-          Just me, myself and I, exploring the universe of unknownment. I have a
-          heart of love and an interest of lorem ipsum and mauris neque quam
-          blog. I want to share my world with you. Praesent tincidunt sed tellus
-          ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies
-          congue gravida diam non fringilla. Praesent tincidunt sed tellus ut
-          rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies
-          congue gravida diam non fringilla.
+          My name is Jude Clark. I am a 28 year old full-stack web developer
+          living in Duluth, GA. My coworkers nicknamed me "the human computer".
+          My attention to detail, efficiency, and ability to conceptualize
+          complex systems are features that help me to excel at building and
+          maintaining websites.
         </p>
-        <hr />
+        <p>
+          I started my education as a musician, completing a Bachelor's of Music
+          Composition from the University of South Carolina in 2014. After
+          university, I worked in the classical music industry for four years,
+          after which I had the desire to try something new. In 2018 I returned
+          to my hometown of Duluth, GA with the goal of building a nice life for
+          myself and my husband (and two cats)
+        </p>
+        <p>
+          When the world changed because of the pandemic, I, like so many
+          others, turned to the tech industry in search of my next career
+          opportunity. When I was a teenager, my second choice for education
+          (after classical music) was to study computer science at Georgia Tech.
+          So, it felt very natural for me to enroll in the full time coding
+          bootcamp with Georgia Tech in August of 2020.
+        </p>
+        <p>Since then, I have had a blast learning about the coding world!</p>
+        <p>
+          My other interests include: makeup, the Olympics, Nederlands spreken.
+        </p>
+        <!-- <hr /> -->
 
-        <h4>Technical Skills</h4>
+        <!-- <h4>Technical Skills</h4>
         <!-- Progress bars / Skills -->
-        <p>Photography</p>
+        <!-- <p>Photography</p>
         <div class="w3-grey">
           <div
             class="w3-container w3-dark-grey w3-padding w3-center"
@@ -425,19 +192,21 @@
           >
             80%
           </div>
-        </div>
+        </div> -->
         <p>
-          <button
-            class="w3-button w3-dark-grey w3-padding-large w3-margin-top w3-margin-bottom"
+          <a href="./files/Jude Clark resume.pdf"
+            ><button
+              class="w3-button w3-dark-grey w3-padding-large w3-margin-top w3-margin-bottom bg-purple"
+            >
+              <i class="fa fa-download w3-margin-right"></i>Download Resume
+            </button></a
           >
-            <i class="fa fa-download w3-margin-right"></i>Download Resume
-          </button>
         </p>
-        <hr />
+        <!-- <hr />
 
-        <h4>How much I charge</h4>
+        <h4>How much I charge</h4> -->
         <!-- Pricing Tables -->
-        <div class="w3-row-padding" style="margin: 0 -16px">
+        <!-- <div class="w3-row-padding" style="margin: 0 -16px">
           <div class="w3-third w3-margin-bottom">
             <ul
               class="w3-ul w3-border w3-white w3-center w3-opacity w3-hover-opacity-off"
@@ -506,29 +275,414 @@
               </li>
             </ul>
           </div>
+        </div> -->
+      </div>
+
+      <!-- Portfolio Header -->
+      <header id="portfolio">
+        <!-- <a href="#"
+          ><img
+            src="/w3images/avatar_g2.jpg"
+            style="width: 65px"
+            class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"
+        /></a>
+        <span
+          class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey"
+          onclick="w3_open()"
+          ><i class="fa fa-bars"></i
+        ></span> -->
+        <div class="w3-container">
+          <h1><b>My Portfolio</b></h1>
+          <!-- <div class="w3-section w3-bottombar w3-padding-16">
+            <span class="w3-margin-right">Filter:</span>
+            <button class="w3-button w3-black">ALL</button>
+            <button class="w3-button w3-white">
+              <i class="fa fa-diamond w3-margin-right"></i>Design
+            </button>
+            <button class="w3-button w3-white w3-hide-small">
+              <i class="fa fa-photo w3-margin-right"></i>Photos
+            </button>
+            <button class="w3-button w3-white w3-hide-small">
+              <i class="fa fa-map-pin w3-margin-right"></i>Art
+            </button>
+          </div> -->
+        </div>
+      </header>
+      <div id="port-page-1">
+        <!-- p1 r1-->
+        <div class="w3-row-padding">
+          <div class="w3-third w3-container w3-margin-bottom port-card">
+            <img
+              src="/images/bookish.png"
+              alt="Bookish."
+              style="width: 100%"
+              class="w3-hover-opacity"
+            />
+            <div class="w3-container w3-white">
+              <p><b>Bookish.</b></p>
+              <p>
+                Bookish will be a social app where readers can form virtual book
+                clubs of up to 10 members for the purpose of discussing a
+                specific book.
+              </p>
+              <div class="pair-o-buttons">
+                <a href="https://gt-bookish.herokuapp.com/" target="_blank"
+                  ><button class="w3-button w3-black">Deployed</button></a
+                >
+                <a href="https://github.com/judeclark19/bookish" target="_blank"
+                  ><button class="w3-button w3-black">GitHub</button></a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="w3-third w3-container w3-margin-bottom port-card">
+            <img
+              src="/images/eat-da-burger.png"
+              alt="Eat-Da-Burger"
+              style="width: 100%"
+              class="w3-hover-opacity"
+            />
+            <div class="w3-container w3-white">
+              <p><b>Eat-Da-Burger</b></p>
+              <p>
+                Uses node.js, express, handlebars, and a custom orm to interface
+                with a burgers database. You can insert, update, and delete
+                burgers from the database using a friendly GUI.
+              </p>
+              <div class="pair-o-buttons">
+                <a
+                  href="https://spacialfray-eatdaburger.herokuapp.com/"
+                  target="_blank"
+                  ><button class="w3-button w3-black">Deployed</button></a
+                >
+                <a
+                  href="https://github.com/judeclark19/eat-da-burger"
+                  target="_blank"
+                  ><button class="w3-button w3-black">GitHub</button></a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="w3-third w3-container port-card">
+            <img
+              src="/images/ems_welcome.png"
+              alt="Employee Management System"
+              style="width: 100%"
+              class="w3-hover-opacity"
+            />
+            <div class="w3-container w3-white">
+              <p><b>Employee Management System</b></p>
+              <p>
+                This CLI app is used to interface with a database of employee
+                data. The GitHub repo contains a schema/seeds with mock data.
+              </p>
+              <div class="pair-o-buttons">
+                <!-- <a href="https://gt-bookish.herokuapp.com/" target="_blank"
+                  ><button class="w3-button w3-black">Deployed</button></a
+                > -->
+                <a
+                  href="https://github.com/judeclark19/employee-management-system"
+                  target="_blank"
+                  ><button class="w3-button w3-black">GitHub</button></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- p1 r2-->
+        <div class="w3-row-padding">
+          <div class="w3-third w3-container w3-margin-bottom">
+            <img
+              src="/images/note-taker.png"
+              alt="Note Taker"
+              style="width: 100%"
+              class="w3-hover-opacity"
+            />
+            <div class="w3-container w3-white">
+              <p><b>Note Taker</b></p>
+              <p>
+                Use this app to create and delete plain-text notes. It's like a
+                virtual sticky pad!
+              </p>
+              <div class="pair-o-buttons">
+                <a
+                  href="https://spacialfray-note-taker.herokuapp.com/"
+                  target="_blank"
+                  ><button class="w3-button w3-black">Deployed</button></a
+                >
+                <a
+                  href="https://github.com/judeclark19/note-taker"
+                  target="_blank"
+                  ><button class="w3-button w3-black">GitHub</button></a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="w3-third w3-container w3-margin-bottom">
+            <img
+              src="/images/employee-template.png"
+              alt="Employee Summary"
+              style="width: 100%"
+              class="w3-hover-opacity"
+            />
+            <div class="w3-container w3-white">
+              <p><b>Employee Summary</b></p>
+              <p>
+                This CLI app will generate a stylish HTML page on which to
+                display basic contact information about your
+                coworkers/employees.
+              </p>
+              <div class="pair-o-buttons">
+                <!-- <a
+                  href="https://spacialfray-note-taker.herokuapp.com/"
+                  target="_blank"
+                  ><button class="w3-button w3-black">Deployed</button></a
+                > -->
+                <a
+                  href="https://github.com/judeclark19/employee-summary-template"
+                  target="_blank"
+                  ><button class="w3-button w3-black">GitHub</button></a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="w3-third w3-container">
+            <img
+              src="/images/readme-gen.png"
+              alt="ReadMe Generator"
+              style="width: 100%"
+              class="w3-hover-opacity"
+            />
+            <div class="w3-container w3-white">
+              <p><b>ReadMe Generator</b></p>
+              <p>
+                This CLI application will quickly generate a README template
+                with a license badge given the user's text inputs.
+              </p>
+              <div class="pair-o-buttons">
+                <!-- <a
+                  href="https://spacialfray-note-taker.herokuapp.com/"
+                  target="_blank"
+                  ><button class="w3-button w3-black">Deployed</button></a
+                > -->
+                <a
+                  href="https://github.com/judeclark19/readme-generator"
+                  target="_blank"
+                  ><button class="w3-button w3-black">GitHub</button></a
+                >
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
+      <div id="port-page-2" class="hidden">
+        <!-- p2 r1-->
+        <div class="w3-row-padding">
+          <div class="w3-third w3-container w3-margin-bottom">
+            <img
+              src="/images/personagen.png"
+              alt="personaGen"
+              style="width: 100%"
+              class="w3-hover-opacity"
+            />
+            <div class="w3-container w3-white">
+              <p><b>personaGen</b></p>
+              <p>
+                personaGen is an easy-to-use and customizable generator of fake
+                user identities. The ideal user is a developer who is generating
+                personas to test in their own project.
+              </p>
+              <div class="pair-o-buttons">
+                <a
+                  href="https://judeclark19.github.io/personaGen/"
+                  target="_blank"
+                  ><button class="w3-button w3-black">Deployed</button></a
+                >
+                <a
+                  href="https://github.com/judeclark19/personaGen"
+                  target="_blank"
+                  ><button class="w3-button w3-black">GitHub</button></a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="w3-third w3-container w3-margin-bottom">
+            <img
+              src="/images/weather-dash.png"
+              alt="Norway"
+              style="width: 100%"
+              class="w3-hover-opacity"
+            />
+            <div class="w3-container w3-white">
+              <p><b>Weather Dashboard</b></p>
+              <p>
+                Use this simple weather app to view the current weather
+                conditions, as well as a 5-day forecast, for the city of your
+                choice. Simply type in the name of a city and click "Search" to
+                view the weather data.
+              </p>
+              <div class="pair-o-buttons">
+                <a
+                  href="https://judeclark19.github.io/weather-dashboard/"
+                  target="_blank"
+                  ><button class="w3-button w3-black">Deployed</button></a
+                >
+                <a
+                  href="https://github.com/judeclark19/weather-dashboard"
+                  target="_blank"
+                  ><button class="w3-button w3-black">GitHub</button></a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="w3-third w3-container">
+            <img
+              src="/images/coding-quiz.png"
+              alt="Norway"
+              style="width: 100%"
+              class="w3-hover-opacity"
+            />
+            <div class="w3-container w3-white">
+              <p><b>Coding Quiz</b></p>
+              <p>
+                Try to answer knowledge questions about JavaScript within a
+                given time limit. Incorrect answers will take 10 seconds off the
+                clock!
+              </p>
+              <div class="pair-o-buttons">
+                <a
+                  href="https://judeclark19.github.io/coding-quiz/"
+                  target="_blank"
+                  ><button class="w3-button w3-black">Deployed</button></a
+                >
+                <a
+                  href="https://github.com/judeclark19/coding-quiz"
+                  target="_blank"
+                  ><button class="w3-button w3-black">GitHub</button></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- p2 r2-->
+        <!-- <div class="w3-row-padding">
+          <div class="w3-third w3-container w3-margin-bottom">
+            <img
+              src="/bookish.png"
+              alt="Bookish."
+              style="width: 100%"
+              class="w3-hover-opacity"
+            />
+            <div class="w3-container w3-white">
+              <p><b>p2 r2</b></p>
+              <p>
+                Praesent tincidunt sed tellus ut rutrum. Sed vitae justo
+                condimentum, porta lectus vitae, ultricies congue gravida diam
+                non fringilla.
+              </p>
+            </div>
+          </div>
+          <div class="w3-third w3-container w3-margin-bottom">
+            <img
+              src="/w3images/p2.jpg"
+              alt="Norway"
+              style="width: 100%"
+              class="w3-hover-opacity"
+            />
+            <div class="w3-container w3-white">
+              <p><b>p2 r2</b></p>
+              <p>
+                Praesent tincidunt sed tellus ut rutrum. Sed vitae justo
+                condimentum, porta lectus vitae, ultricies congue gravida diam
+                non fringilla.
+              </p>
+            </div>
+          </div>
+          <div class="w3-third w3-container">
+            <img
+              src="/w3images/p3.jpg"
+              alt="Norway"
+              style="width: 100%"
+              class="w3-hover-opacity"
+            />
+            <div class="w3-container w3-white">
+              <p><b>p2 r2</b></p>
+              <p>
+                Praesent tincidunt sed tellus ut rutrum. Sed vitae justo
+                condimentum, porta lectus vitae, ultricies congue gravida diam
+                non fringilla.
+              </p>
+            </div>
+          </div>
+        </div> -->
+      </div>
+
+      <!-- Pagination -->
+      <!-- <div class="w3-center w3-padding-32">
+        <div class="w3-bar">
+          <a
+            href="#"
+            class="w3-bar-item w3-button w3-hover-black"
+            id="page-left"
+            >«</a
+          >
+          <a
+            href="#"
+            class="w3-bar-item w3-black w3-button page-number"
+            data-page="1"
+            >1</a
+          >
+          <a
+            href="#"
+            class="w3-bar-item w3-button w3-hover-black page-number"
+            data-page="2"
+            >2</a
+          >
+          <a
+            href="#"
+            class="w3-bar-item w3-button w3-hover-black page-number"
+            data-page="3"
+            >3</a
+          >
+          <a
+            href="#"
+            class="w3-bar-item w3-button w3-hover-black page-number"
+            data-page="4"
+            >4</a
+          >
+          <a
+            href="#"
+            class="w3-bar-item w3-button w3-hover-black"
+            id="page-right"
+            >»</a
+          >
+        </div>
+      </div> -->
+      <hr />
+
       <!-- Contact Section -->
       <div class="w3-container w3-padding-large w3-grey">
-        <h4 id="contact"><b>Contact Me</b></h4>
+        <h1 id="contact"><b>Contact Me</b></h1>
         <div
           class="w3-row-padding w3-center w3-padding-24"
           style="margin: 0 -16px"
         >
           <div class="w3-third w3-dark-grey">
             <p><i class="fa fa-envelope w3-xxlarge w3-text-light-grey"></i></p>
-            <p>email@email.com</p>
+            <p>judeclark2019@gmail.com</p>
           </div>
-          <div class="w3-third w3-teal">
+          <div class="w3-third w3-teal bg-purple">
             <p>
               <i class="fa fa-map-marker w3-xxlarge w3-text-light-grey"></i>
             </p>
-            <p>Chicago, US</p>
+            <p>Duluth, GA, US</p>
           </div>
           <div class="w3-third w3-dark-grey">
             <p><i class="fa fa-phone w3-xxlarge w3-text-light-grey"></i></p>
-            <p>512312311</p>
+            <p>678-825-JUDE (5833)</p>
           </div>
         </div>
         <hr class="w3-opacity" />
@@ -560,14 +714,17 @@
               required
             />
           </div>
-          <button type="submit" class="w3-button w3-black w3-margin-bottom">
+          <button
+            type="submit"
+            class="w3-button w3-black w3-margin-bottom bg-purple"
+          >
             <i class="fa fa-paper-plane w3-margin-right"></i>Send Message
           </button>
         </form>
       </div>
 
       <!-- Footer -->
-      <footer class="w3-container w3-padding-32 w3-dark-grey">
+      <!-- <footer class="w3-container w3-padding-32 w3-dark-grey">
         <div class="w3-row-padding">
           <div class="w3-third">
             <h3>FOOTER</h3>
@@ -648,18 +805,9 @@
             </p>
           </div>
         </div>
-      </footer>
+      </footer> -->
 
-      <div class="w3-black w3-center w3-padding-24">
-        Powered by
-        <a
-          href="https://www.w3schools.com/w3css/default.asp"
-          title="W3.CSS"
-          target="_blank"
-          class="w3-hover-opacity"
-          >w3.css</a
-        >
-      </div>
+      <div class="w3-dark-grey w3-center w3-padding-24">Jude Clark 2020</div>
 
       <!-- End page content -->
     </div>
